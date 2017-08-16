@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:orientation="horizontal"
+    tools:context="com.liandong_listview.MainActivity">
+
+    <ListView
+        android:id="@+id/left_listview"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:scrollbars="none"
+        android:divider="@null"></ListView>
+
+    <com.liandong_listview.PinnedHeaderListView
+        android:id="@+id/pinnedListView"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+
+        android:layout_weight="5"
+        android:background="@android:color/white">
+
+    </com.liandong_listview.PinnedHeaderListView>
+
+    作者：JeenWang
+    链接：http://www.jianshu.com/p/d9e75ac904e7
+    來源：简书
+    著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+</LinearLayout>
